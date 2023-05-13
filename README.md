@@ -9,14 +9,15 @@ Using a Jupyter notebook we created a polymer and simulated active Brownian moti
 Installation
 LAMMPS 2019 was used to run the lammps simulation
 LAMMPS simulation file is poly.lam and the input file is poly1.input
-To execute poly.lam use the command: lmp -in poly.lam
+To execute poly.lam use the command:
+lmp -in poly.lam
 
 In order to change the temperature or number of obstacles edit the appropriate fields in the poly.lam executable
 
 
 Output will be images which were turned into GIFs using imageJ of the trajectories of the polymer with and without obstacles, and at different temperatures
 Output files will also include trajectory and topology output files
-  Initial concept was to use these files to track the trajectory of the polymer, but many of the trajectory analysis packages for LAMMPS are not available for Windows machine, therefore this was abandoned
+Initial concept was to use these files to track the trajectory of the polymer, but many of the trajectory analysis packages for LAMMPS are not available for Windows machine, therefore this was abandoned
 
 
 
